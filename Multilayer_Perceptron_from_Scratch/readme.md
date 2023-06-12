@@ -1,8 +1,3 @@
-# Description
-This project embodies a robust implementation of multilayer perceptron classifiers, entirely built upon the powerful NumPy library. As of now, certain functionalities of our multilayer perceptron have yet to be tested due to the specificity of the task from which the code was initially derived. Nevertheless, we have successfully demonstrated its efficacy in our own unique task. Moving forward, our primary objective is to gradually enhance our model's versatility, ensuring it operates optimally across a diverse array of use cases.     
-
-We provide an exemplary demonstration of how our multilayer perceptron classifiers can be utilized. If you have tasks that align with ours, you can effortlessly tailor our model to your specific needs. On the other hand, if your tasks diverge from ours and our code fails to perform as expected, we encourage you to delve into our multilayer perceptron source code and adjust it to suit your requirements.
-
 # Repository Contents
 ‘**MLPClassifier.py**’: This Python script houses the implementation of our multilayer perceptron classifier leveraging NumPy.
 
@@ -11,6 +6,19 @@ We provide an exemplary demonstration of how our multilayer perceptron classifie
 ‘**main.ipynb**’: This Jupyter Notebook contains the same content as main.py, but additionally captures the output for interactive exploration and review.
 
 ‘**data**’: This directory contains the dataset used for our exemplary demonstration.
+
+# Brief introduction of modules in MLPClassifier
+## Prerequisite:
+'**Scaler**', a class designed to scale data through normalization or standardization, although there is room for further optimization.
+
+'**Dataset**', a class designed to load our dataset, featuring several preprocessing methods. These methods include splitting of training and validation sets, centering, normalization, and addressing missing values, among others.
+
+## Core modules:
+'**Activation**', a class which implements a range of activation functions and their corresponding derivatives. Specifically, these functions include sigmoid, hyperbolic tangent, ReLU, Leaky ReLU, ELU, Swish, Softplus functions, and more.
+
+'**HiddenLayer**', a class which realizes the implementation of a hidden layer, which can also serve as a batch normalization layer. This class encompasses functionalities such as weight initialization, dropout, and both forward and backward propagation between layers.
+
+'**MLP**': a class which implements the multilayer perceptron. It integrates the hidden layers (including batch normalization layers), thus defining the propagation mechanism between layers. This class has an embedded criterion that indicates the loss function, such as cross entropy loss. It includes several optimizers like SGD, NAG, Adagrad, Adadelta, Adam, and more. Lastly, it encapsulates the training procedure, prediction method, and performance metric—specifically, accuracy.
 
 # Requirements
 To install and run this project, you will need:
