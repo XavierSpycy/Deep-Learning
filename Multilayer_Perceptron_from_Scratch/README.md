@@ -37,5 +37,5 @@ Python: Our project uses Python 3.9.16. You can download Python [here](https://w
 
 NumPy: Our multilayer perceptron implementation relies on NumPy 1.24.2. You can install it with pip:
 ```
-pip install numpy.
+pip install numpy
 ```
