@@ -7,7 +7,7 @@
 
 ‘**data**’: This directory contains the dataset used for our exemplary demonstration.
 
-You can download the datasets [here](https://drive.google.com/drive/folders/1L97vWGiP-V1IgrHNrh4zC0OOIThG5t-m?usp=drive_link).
+You can download the datasets [here](https://www.kaggle.com/datasets/xavierspycy/multilayer-perceptron-datasets).
 
 '**train_data.npy**', a NumPy file which stores the training inputs.
 
