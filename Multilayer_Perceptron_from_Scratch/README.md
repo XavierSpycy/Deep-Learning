@@ -5,6 +5,8 @@
 
 ‘**main.ipynb**’: This Jupyter Notebook contains the same content as main.py, but additionally captures the output for interactive exploration and review.
 
+‘**pytorch.ipnb**’: To demonstrate the efficiency of our model, this Jupyter Notebook features a similar architecture to the multilayer perceptron implemented using PyTorch, following a similar training procedure.
+
 ‘**data**’: This directory contains the dataset used for our exemplary demonstration.
 
 You can download the datasets [here](https://www.kaggle.com/datasets/xavierspycy/multilayer-perceptron-datasets).
