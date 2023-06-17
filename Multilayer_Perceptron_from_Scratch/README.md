@@ -5,7 +5,9 @@
 
 ‘**main.ipynb**’: This Jupyter Notebook contains the same content as main.py, but additionally captures the output for interactive exploration and review.
 
-‘**pytorch.ipnb**’: To demonstrate the efficiency of our model, this Jupyter Notebook features a similar architecture to the multilayer perceptron implemented using PyTorch, following a similar training procedure.
+‘**pytorch.ipynb**’: To demonstrate the efficiency of our model, this Jupyter Notebook features a similar architecture to the multilayer perceptron implemented using PyTorch, following a similar training procedure.
+
+**extend.ipynb**: To demonstrate the flexibility of our model, this Jupyter Notebook showcases the ease with which users can tailor their own unique architectures, adjust hyperparameters, and select different optimizers.
 
 ‘**data**’: This directory contains the dataset used for our exemplary demonstration.
 
