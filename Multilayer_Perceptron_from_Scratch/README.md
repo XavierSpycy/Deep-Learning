@@ -1,9 +1,9 @@
 # Repository Contents
 ‘**MLPClassifier.py**’: This Python script houses the implementation of our multilayer perceptron classifier leveraging NumPy.
 
-‘**main.py**’: This Python script provides an exemplary demonstration of our multilayer perceptron classifier in action.
+‘**test.py**’: This Python script provides an exemplary demonstration of our multilayer perceptron classifier in action.
 
-‘**main.ipynb**’: This Jupyter Notebook contains the same content as main.py, but additionally captures the output for interactive exploration and review.
+‘**test.ipynb**’: This Jupyter Notebook contains the same content as main.py, but additionally captures the output for interactive exploration and review.
 
 ‘**pytorch.ipynb**’: To demonstrate the efficiency of our model, this Jupyter Notebook features a similar architecture to the multilayer perceptron implemented using PyTorch, following a similar training procedure.
 
